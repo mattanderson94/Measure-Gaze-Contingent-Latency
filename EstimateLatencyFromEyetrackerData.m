@@ -4,7 +4,7 @@ clear; clc; close all;
 
 addpath(genpath('AnalysisTools/'));
 
-fname = 'TEST1000HZ_0MsecsLatency';
+fname = 'TEST1000HZ_CR_0MsecsLatency';
 
 % manually specify our setup 
 refreshRate = 144;

@@ -32,7 +32,7 @@ slowPhaseSpeedDegPerSec = 3;
 addedLatencySecs = 0; % if not a multiple of the frame rate, this is rounded up to the nearest frame
 trialDurationSecs = 60;
 
-% screen dimensions
+% screen dimensions (all in cm)
 screenWidth = 170;
 screenHeight = 96;
 screenDistance = 100;
