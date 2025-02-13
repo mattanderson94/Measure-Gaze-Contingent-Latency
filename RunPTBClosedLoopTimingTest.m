@@ -1,7 +1,7 @@
 clear; clc; close all;
 
 % Written by Matt Anderson on 2/12/2025. Submit bug reports via the dedicated
-% github page: https://github.com/mattanderson94/Method-for-evaluating-closed-loop-latency-of-gaze-contingent-rendering-
+% github page: https://github.com/mattanderson94/Measure-Gaze-Contingent-Latency
 
 % the following test works on this system:
 
@@ -12,14 +12,7 @@ clear; clc; close all;
 % Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
 % -----------------------------------------------------------------------------------------------------
 % MATLAB                                                Version 23.2        (R2023b)   
-% Computer Vision Toolbox                               Version 23.2        (R2023b)   
-% Curve Fitting Toolbox                                 Version 23.2        (R2023b)   
-% DatapixxToolbox                                       Version 0.9,        Aug        
-% Image Processing Toolbox                              Version 23.2        (R2023b)   
-% Optimization Toolbox                                  Version 23.2        (R2023b)   
 % Psychtoolbox                                          Version 3.0.19      17 February
-% Signal Processing Toolbox                             Version 23.2        (R2023b)   
-% Statistics and Machine Learning Toolbox               Version 23.2        (R2023b)   
 
 % We are using a desktop-mounted Eyelink 1000+, with the latest Eyelink
 % Devkit API downloaded (as of 2/12/2025). See https://www.sr-research.com/support/forum-9.html
