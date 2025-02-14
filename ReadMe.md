@@ -28,7 +28,7 @@ This MATLAB code is written for an Eyelink 1000+ and has only been tested on a d
 
 This code should be compatible with some other versions of MATLAB and Psychtoolbox, but this is not guaranteed. For proper Psychtoolbox installation instructions if needed, [click here](http://psychtoolbox.org/download).
 
-You may also need to download the latest Eyelink development kit [here](https://www.sr-research.com/support/forum-9.html).
+You may also need to download the latest [Eyelink development kit](https://www.sr-research.com/support/forum-9.html).
 
 This code also requires a correctly installed version of the [Edf2Mat© Matlab Toolbox](https://github.com/uzh/edf-converter). Follow installation instructions on their github page. In a few of the scripts, you will be prompted to add the ./@Edf2Mat/ folder to the current MATLAB search path, so make sure the path is added before running any analysis scripts. 
 
