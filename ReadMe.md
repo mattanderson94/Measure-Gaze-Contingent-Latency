@@ -39,10 +39,16 @@ To measure gaze contingent latency, run
 RunPTBClosedLoopTimingTest();
 ```
 
-And to analyse the data to extract the latency estimates, run
+To analyse the data to extract the latency estimates, run
 ```MATLAB
 EstimateLatencyFromEyeTrackerData();
 ```
+
+And if you want to validate the method, you can compare expected versus measured latencies by running
+```MATLAB
+CompareExpectedVersusObservedLatencies();
+```
+The logic of this validation approach is described in detail in [our paper](https://google.com)
 
 ## 🤝 Contributing
 
