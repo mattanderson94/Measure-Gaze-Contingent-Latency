@@ -23,7 +23,7 @@ clear; clc; close all;
 fname = 'TestMeasurementCR';
 
 % render corneal reflection or no?
-renderCR = true;
+renderCR = false;
 
 % define pupil-motion parameters
 pupilRadiusDeg = .4;
@@ -37,7 +37,7 @@ screenWidth = 170;
 screenHeight = 96;
 screenDistance = 100;
 
-% pupil and bg cols
+% pupil and background colors
 pupilColor = [0,0,0];
 cornealReflectionColor = [255,255,255];
 foregroundColor = [255,255,255];
@@ -46,7 +46,7 @@ backgroundColor = [100,100,100];
 %% -------    PSYCHTOOLBOX SETUP    ------- %%
 
 % Ideally, we should have no sync issues (timing really matters here)
-Screen('Preference', 'SkipSyncTests', 1);
+% Screen('Preference', 'SkipSyncTests', 1);
 
 % boilerplate PTB stuff...
 PsychDefaultSetup(2);
@@ -284,7 +284,7 @@ end
 Eyelink('StopRecording');
 
 % The relationship between on-screen pixel position and sensor-based gaze y
-% position is highly linear. We can capture it with just a two-term model I think
+% position is highly linear. We can capture it with just a two-term model
 idxs = 1:(tblctr-1); 
 p = polyfit(calibgazedata.LGazeY(idxs),calibgazedata.PTBLGazeY(idxs),1);  
 
