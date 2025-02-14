@@ -2,6 +2,8 @@ clear; clc; close all;
 
 %% Specify system settings and analysis method
 
+% add path to directory where @Edf2mat is located. For me, I created a
+% directory called ./Analysistools/ and copied a fresh version into there
 addpath(genpath('AnalysisTools/'));
 
 fname = 'TEST1000HZ_CR_0MsecsLatency';

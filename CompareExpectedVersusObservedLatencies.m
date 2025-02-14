@@ -10,6 +10,8 @@ clear; clc; close all;
 
 %% Specify system settings and analysis method
 
+% add path to directory where @Edf2mat is located. For me, I created a
+% directory called ./Analysistools/ and copied a fresh version into there
 addpath(genpath('AnalysisTools/'));
 
 % list all the files with artificially added latencies 
