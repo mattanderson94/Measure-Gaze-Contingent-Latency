@@ -1,9 +1,9 @@
-# A method for estimating closed-loop latency in gaze-contingent rendering experiments
+# A method for measuring closed-loop latency in gaze-contingent rendering without extra equipment.
 
 ## 📌 Description
 This is a method for precisely estimating the closed-loop latency of gaze-contingent rendering. By closed-loop latency, we mean the time between a change in where an observer is looking on a stimulus, and a corresponding update to the stimulus. This is critical for artifact-free foveated rendering, and smooth experiments. Various methods exist, but ours has the advantage of requiring no additional hardware beyond what is typically used in eye tracking studies (a monitor and an eye tracker).
 
-Full details are in our paper [here](https://google.com)
+Full details are in our paper [here (to come)](https://google.com)
 
 ## 🚀 Installation
 
